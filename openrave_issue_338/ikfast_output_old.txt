@@ -1,0 +1,191 @@
+kohlbrecher@sk-i7:~/tmp/atlas_desc/build/vigir_atlas_common/atlas_description/drcsim_gazebo_standalone_models/atlas_v4$ python `openrave-config --python-dir`/openravepy/_openravepy_/ikfast.py --robot=atlas_v4_rounded.dae --iktype=transform6d --baselink=3 --eelink=30 --savefile=r_arm.cpp
+[plugindatabase.h:929 _SysLoadLibrary] /usr/local/share/openrave-0.9/plugins/openravepy_configurationcache.so: libconfigurationcache.so: cannot open shared object file: No such file or directory
+[plugindatabase.h:857 _LoadPlugin] failed to load: /usr/local/share/openrave-0.9/plugins/openravepy_configurationcache.so
+[plugindatabase.h:929 _SysLoadLibrary] /usr/local/share/openrave-0.9/plugins/libconfigurationcache.so: libconfigurationcache.so: cannot open shared object file: No such file or directory
+[plugindatabase.h:929 _SysLoadLibrary] /usr/local/share/openrave-0.9/plugins/libconfigurationcache.so: libconfigurationcache.so: cannot open shared object file: No such file or directory
+[plugindatabase.h:857 _LoadPlugin] failed to load: /usr/local/share/openrave-0.9/plugins/libconfigurationcache.so
+[plugindatabase.h:577 Create] Failed to create name ode, interface collisionchecker
+[plugindatabase.h:577 Create] Failed to create name bullet, interface collisionchecker
+/usr/local/lib/python2.7/dist-packages/openravepy/_openravepy_/ikfast.py:1412: RuntimeWarning: invalid value encountered in divide
+  axisangle /= angle
+INFO: moved translation [0, 0, 0] to right end
+INFO: moved translation [0, 0, -49/200] to left end
+INFO: moved translation on intersecting axis [0, 0, 0] to left
+INFO: [[1, 0, 0, 703/5000],[0, 1, 0, -141/625],[0, 0, 1, 1163/5000]]
+INFO: [[cos(j12), -sin(j12), 0, 0],[sin(j12), cos(j12), 0, 0],[0, 0, 1, 0]]
+INFO: [[0, 0, 1, 0],[0, 1, 0, -11/100],[-1, 0, 0, 0]]
+INFO: [[cos(j13), -sin(j13), 0, 0],[sin(j13), cos(j13), 0, 0],[0, 0, 1, 0]]
+INFO: [[0, 1, 0, 2/125],[0, 0, 1, -187/1000],[1, 0, 0, 0]]
+INFO: [[cos(j14), -sin(j14), 0, 0],[sin(j14), cos(j14), 0, 0],[0, 0, 1, 0]]
+INFO: [[0, 0, 1, 0],[1, 0, 0, -23/2500],[0, 1, 0, -119/1000]]
+INFO: [[cos(j15), -sin(j15), 0, 0],[sin(j15), cos(j15), 0, 0],[0, 0, 1, 0]]
+INFO: [[0, 1, 0, 23/2500],[0, 0, 1, -187/1000],[1, 0, 0, 0]]
+INFO: [[cos(j16), -sin(j16), 0, 0],[sin(j16), cos(j16), 0, 0],[0, 0, 1, 0]]
+INFO: [[0, 0, 1, 0],[1, 0, 0, -23/2500],[0, 1, 0, -119/1000]]
+INFO: [[cos(j17), -sin(j17), 0, 0],[sin(j17), cos(j17), 0, 0],[0, 0, 1, 0]]
+INFO: [[0, 0, -1, 0],[0, 1, 0, 0],[1, 0, 0, 0]]
+INFO: ikfast 6d: [j12, j13, j14, j15, j16, j17]
+INFO: found 3 consecutive non-intersecting axes links[0:5], vars=[j12, j13, j14]
+INFO: found 3 consecutive non-intersecting axes links[2:7], vars=[j13, j14, j15]
+INFO: found 3 consecutive non-intersecting axes links[4:9], vars=[j14, j15, j16]
+INFO: found 3 consecutive non-intersecting axes links[6:11], vars=[j15, j16, j17]
+INFO: computed in 3.179567s
+INFO: computed in 5.597831s
+INFO: attempting li/woernle/hiller general ik method
+INFO: assuming equation Poly(htj15, cj13, sj13, cj14, sj14, cj16, sj16, cj17, sj17, htj15, domain='ZZ[r20,r21,r22]') is non-zero
+INFO: assuming equation Poly(htj15, cj13, sj13, cj14, sj14, cj16, sj16, cj17, sj17, htj15, domain='QQ[npx,npy,npz]') is non-zero
+INFO: assuming equation Poly(htj15, cj13, sj13, cj14, sj14, cj16, sj16, cj17, sj17, htj15, domain='QQ[r20,r21,r22,rxp0_2,rxp1_2,rxp2_2]') is non-zero
+INFO: assuming equation Poly(htj15, cj13, sj13, cj14, sj14, cj16, sj16, cj17, sj17, htj15, domain='QQ[npx,npy,npz,pp]') is non-zero
+INFO: assuming equation Poly(htj15, cj13, sj13, cj14, sj14, cj16, sj16, cj17, sj17, htj15, domain='QQ[pz,r20,r21,r22]') is non-zero
+INFO: assuming equation Poly(htj15, cj13, sj13, cj14, sj14, cj16, sj16, cj17, sj17, htj15, domain='QQ[npx,npy,npz,pp,pz,r20,r21,r22,rxp0_2,rxp1_2,rxp2_2]') is non-zero
+WARNING: solving (cj15, sj15, cj16, sj16, cj17, sj17): CannotSolveError: new monoms is 16>14
+INFO: attempting li/woernle/hiller general ik method
+INFO: assuming equation Poly(htj12, cj16, sj16, cj17, sj17, cj13, sj13, cj14, sj14, htj12, domain='ZZ[r20,r21,r22]') is non-zero
+INFO: assuming equation Poly(htj12, cj16, sj16, cj17, sj17, cj13, sj13, cj14, sj14, htj12, domain='QQ[r20,r21,r22,pz]') is non-zero
+INFO: assuming equation Poly(htj12, cj16, sj16, cj17, sj17, cj13, sj13, cj14, sj14, htj12, domain='QQ[r20,r21,r22,npx,npy,npz,pp,pz,rxp0_2,rxp1_2,rxp2_2]') is non-zero
+INFO: assuming equation Poly(htj12, cj16, sj16, cj17, sj17, cj13, sj13, cj14, sj14, htj12, domain='QQ[r20,r21,r22,npx,npy,npz,pp,pz,rxp0_2,rxp1_2,rxp2_2]') is non-zero
+INFO: matrix has 0 symbols
+WARNING: solving (cj12, sj12, cj13, sj13, cj14, sj14): CannotSolveError: coefficient matrix is singular
+INFO: attempting kohli/osvatic general ik method
+INFO: solving for all pairwise variables in (cj16, sj16, cj17, sj17), number of symbol coeffs are 24
+INFO: solving for all pairwise variables in (cj16, sj16, cj17, sj17), number of symbol coeffs are 24
+WARNING: solving (cj12, sj12, cj13, sj13, cj14, sj14): CannotSolveError: KohliOsvatic method: could not reduce the equations
+INFO: attempting kohli/osvatic general ik method
+INFO: solving for all pairwise variables in (cj13, sj13, cj14, sj14), number of symbol coeffs are 0
+INFO: solving for all pairwise variables in (cj13, sj13, cj14, sj14), number of symbol coeffs are 0
+INFO: finished with 6 equations
+INFO: build final equations for symbols: [cj16, sj16, cj17, sj17, cj13, sj13]
+WARNING: unknown (0, 1, 0, 0)
+WARNING: unknown (0, 1, 0, 0)
+WARNING: unknown (1, 0, 0, 0)
+WARNING: unknown (1, 0, 0, 0)
+WARNING: unknown (1, 0, 0, 0)
+WARNING: unknown (0, 1, 0, 0)
+WARNING: unknown (1, 0, 0, 0)
+WARNING: unknown (0, 1, 0, 0)
+WARNING: failed with leftvar tj15: CannotSolveError: solveDialytically: more unknowns than equations 12>4
+WARNING: failed with leftvar htj16: CannotSolveError: solveDialytically: more unknowns than equations 9>4
+WARNING: failed with leftvar htj17: CannotSolveError: solveDialytically: more unknowns than equations 9>4
+WARNING: failed with leftvar dummyj: CannotSolveError: solveDialytically: more unknowns than equations 27>4
+WARNING: failed with leftvar dummyk: CannotSolveError: solveDialytically: more unknowns than equations 27>4
+WARNING: solving (cj15, sj15, cj16, sj16, cj17, sj17): CannotSolveError: failed to solve dialytically
+INFO: attempting manocha/canny general ik method
+INFO: solving for all pairwise variables in (cj16, sj16, cj17, sj17), number of symbol coeffs are 80
+INFO: forcing matrix inverse (might take some time)
+INFO: found non-zero determinant by evaluation
+INFO: solving simultaneously for symbols: (cj12, sj12, cj13, sj13, cj14, sj14)
+INFO: solved coupled variables: [j12, j13, j14]
+INFO: c=1, [j12, j13, j14] [j15, j16, j17]
+WARNING: equation relies on unsolved variables([sj16, cj17, sj17]): -cj12**2*cj14**2*r10**2*r21**4 + 2*cj12**2*cj14**2*r10*r11*r20*r21**3 - cj12**2*cj14**2*r11**2*r20**2*r21**2 - cj12**2*r00**2*r21**4*sj13**2*sj14**2 + 2*cj12**2*r00*r01*r20*r21**3*sj13**2*sj14**2 - cj12**2*r01**2*r20**2*r21**2*sj13**2*sj14**2 - 2*cj12*cj13*cj14*r01*r10**2*r21**3*sj14 + 4*cj12*cj13*cj14*r01*r10*r11*r20*r21**2*sj14 - 2*cj12*cj13*cj14*r01*r11**2*r20**2*r21*sj14 - 2*cj12*cj13*r00**2*r11*r21**3*sj13*sj14**2 + 4*cj12*cj13*r00*r01*r11*r20*r21**2*sj13*sj14**2 - 2*cj12*cj13*r01**2*r11*r20**2*r21*sj13*sj14**2 - 2*cj12*cj14*cj16*r01*r10**2*r21**3*r22 + 4*cj12*cj14*cj16*r01*r10*r11*r20*r21**2*r22 - 2*cj12*cj14*cj16*r01*r11**2*r20**2*r21*r22 + 2*cj12*cj14*cj16*r02*r10**2*r21**4 - 4*cj12*cj14*cj16*r02*r10*r11*r20*r21**3 + 2*cj12*cj14*cj16*r02*r11**2*r20**2*r21**2 - 2*cj12*cj14*r00**2*r21**4*sj12*sj13*sj14 + 4*cj12*cj14*r00*r01*r20*r21**3*sj12*sj13*sj14 - 2*cj12*cj14*r01**2*r20**2*r21**2*sj12*sj13*sj14 + 2*cj12*cj14*r10**2*r21**4*sj12*sj13*sj14 - 4*cj12*cj14*r10*r11*r20*r21**3*sj12*sj13*sj14 + 2*cj12*cj14*r11**2*r20**2*r21**2*sj12*sj13*sj14 - 2*cj12*cj16*r00**2*r11*r21**3*r22*sj13*sj14 + 2*cj12*cj16*r00**2*r12*r21**4*sj13*sj14 + 4*cj12*cj16*r00*r01*r11*r20*r21**2*r22*sj13*sj14 - 4*cj12*cj16*r00*r01*r12*r20*r21**3*sj13*sj14 - 2*cj12*cj16*r01**2*r11*r20**2*r21*r22*sj13*sj14 + 2*cj12*cj16*r01**2*r12*r20**2*r21**2*sj13*sj14 - cj13**2*r00**2*r11**2*r21**2*sj14**2 + 2*cj13**2*r00*r01*r11**2*r20*r21*sj14**2 - cj13**2*r01**2*r10**2*r21**2*sj14**2 + 2*cj13**2*r01**2*r10*r11*r20*r21*sj14**2 - 2*cj13**2*r01**2*r11**2*r20**2*sj14**2 - 2*cj13*cj14*r00**2*r11*r21**3*sj12*sj14 + 4*cj13*cj14*r00*r01*r11*r20*r21**2*sj12*sj14 - 2*cj13*cj14*r01**2*r11*r20**2*r21*sj12*sj14 - 2*cj13*cj16*r00**2*r11**2*r21**2*r22*sj14 + 2*cj13*cj16*r00**2*r11*r12*r21**3*sj14 + 4*cj13*cj16*r00*r01*r11**2*r20*r21*r22*sj14 - 4*cj13*cj16*r00*r01*r11*r12*r20*r21**2*sj14 - 2*cj13*cj16*r01**2*r10**2*r21**2*r22*sj14 + 4*cj13*cj16*r01**2*r10*r11*r20*r21*r22*sj14 - 4*cj13*cj16*r01**2*r11**2*r20**2*r22*sj14 + 2*cj13*cj16*r01**2*r11*r12*r20**2*r21*sj14 + 2*cj13*cj16*r01*r02*r10**2*r21**3*sj14 - 4*cj13*cj16*r01*r02*r10*r11*r20*r21**2*sj14 + 2*cj13*cj16*r01*r02*r11**2*r20**2*r21*sj14 + 2*cj13*r01*r10**2*r21**3*sj12*sj13*sj14**2 - 4*cj13*r01*r10*r11*r20*r21**2*sj12*sj13*sj14**2 + 2*cj13*r01*r11**2*r20**2*r21*sj12*sj13*sj14**2 - cj14**2*r00**2*r21**4*sj12**2 + 2*cj14**2*r00*r01*r20*r21**3*sj12**2 - cj14**2*r01**2*r20**2*r21**2*sj12**2 - 2*cj14*cj16*r00**2*r11*r21**3*r22*sj12 + 2*cj14*cj16*r00**2*r12*r21**4*sj12 + 4*cj14*cj16*r00*r01*r11*r20*r21**2*r22*sj12 - 4*cj14*cj16*r00*r01*r12*r20*r21**3*sj12 - 2*cj14*cj16*r01**2*r11*r20**2*r21*r22*sj12 + 2*cj14*cj16*r01**2*r12*r20**2*r21**2*sj12 - 2*cj16**2*cj17**2*r00**2*r10**2*r21**4 + 4*cj16**2*cj17**2*r00**2*r10*r11*r20*r21**3 - 2*cj16**2*cj17**2*r00**2*r11**2*r20**2*r21**2 + 4*cj16**2*cj17**2*r00*r01*r10**2*r20*r21**3 - 8*cj16**2*cj17**2*r00*r01*r10*r11*r20**2*r21**2 + 4*cj16**2*cj17**2*r00*r01*r11**2*r20**3*r21 - 2*cj16**2*cj17**2*r01**2*r10**2*r20**2*r21**2 + 4*cj16**2*cj17**2*r01**2*r10*r11*r20**3*r21 - 2*cj16**2*cj17**2*r01**2*r11**2*r20**4 - cj16**2*r00**2*r11**2*r21**2*r22**2 + 2*cj16**2*r00**2*r11*r12*r21**3*r22 - cj16**2*r00**2*r12**2*r21**4 + 2*cj16**2*r00*r01*r11**2*r20*r21*r22**2 - 4*cj16**2*r00*r01*r11*r12*r20*r21**2*r22 + 2*cj16**2*r00*r01*r12**2*r20*r21**3 - cj16**2*r01**2*r10**2*r21**2*r22**2 + 2*cj16**2*r01**2*r10*r11*r20*r21*r22**2 - 2*cj16**2*r01**2*r11**2*r20**2*r22**2 + 2*cj16**2*r01**2*r11*r12*r20**2*r21*r22 - cj16**2*r01**2*r12**2*r20**2*r21**2 + 2*cj16**2*r01*r02*r10**2*r21**3*r22 - 4*cj16**2*r01*r02*r10*r11*r20*r21**2*r22 + 2*cj16**2*r01*r02*r11**2*r20**2*r21*r22 - cj16**2*r02**2*r10**2*r21**4 + 2*cj16**2*r02**2*r10*r11*r20*r21**3 - cj16**2*r02**2*r11**2*r20**2*r21**2 + 2*cj16*r01*r10**2*r21**3*r22*sj12*sj13*sj14 - 4*cj16*r01*r10*r11*r20*r21**2*r22*sj12*sj13*sj14 + 2*cj16*r01*r11**2*r20**2*r21*r22*sj12*sj13*sj14 - 2*cj16*r02*r10**2*r21**4*sj12*sj13*sj14 + 4*cj16*r02*r10*r11*r20*r21**3*sj12*sj13*sj14 - 2*cj16*r02*r11**2*r20**2*r21**2*sj12*sj13*sj14 + 2*cj17**2*r00**2*r10**2*r21**4 - 4*cj17**2*r00**2*r10*r11*r20*r21**3 + 2*cj17**2*r00**2*r11**2*r20**2*r21**2 - 4*cj17**2*r00*r01*r10**2*r20*r21**3 + 8*cj17**2*r00*r01*r10*r11*r20**2*r21**2 - 4*cj17**2*r00*r01*r11**2*r20**3*r21 + 2*cj17**2*r01**2*r10**2*r20**2*r21**2 - 4*cj17**2*r01**2*r10*r11*r20**3*r21 + 2*cj17**2*r01**2*r11**2*r20**4 - r10**2*r21**4*sj12**2*sj13**2*sj14**2 + 2*r10*r11*r20*r21**3*sj12**2*sj13**2*sj14**2 - r11**2*r20**2*r21**2*sj12**2*sj13**2*sj14**2
+^CTraceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/openravepy/_openravepy_/ikfast.py", line 8658, in <module>
+    solution.checkforzeros += checkforzeros
+  File "/usr/local/lib/python2.7/dist-packages/openravepy/_openravepy_/ikfast.py", line 2219, in generateIkSolver
+    self._rotposcrossgroups.append([[i+6,ip+0],[i,ip+2],irxp+3*i+1])
+  File "/usr/local/lib/python2.7/dist-packages/openravepy/_openravepy_/ikfast.py", line 2770, in solveFullIK_6D
+    try:
+  File "/usr/local/lib/python2.7/dist-packages/openravepy/_openravepy_/ikfast.py", line 3073, in solveFullIK_6DGeneral
+    continue
+  File "/usr/local/lib/python2.7/dist-packages/openravepy/_openravepy_/ikfast.py", line 6085, in SolveAllEquations
+    
+  File "/usr/local/lib/python2.7/dist-packages/openravepy/_openravepy_/ikfast.py", line 8113, in SolvePairVariables
+    continue
+  File "/usr/local/lib/python2.7/dist-packages/openravepy/_openravepy_/ikfast.py", line 6980, in SolvePairVariablesHalfAngle
+    ishinge = []
+  File "/usr/local/lib/python2.7/dist-packages/openravepy/_openravepy_/ikfast.py", line 7188, in solveVariablesLinearly
+    extrazerochecks=None
+  File "/usr/local/lib/python2.7/dist-packages/sympy/matrices/matrices.py", line 1840, in det
+    return self.det_bareis()
+  File "/usr/local/lib/python2.7/dist-packages/sympy/matrices/matrices.py", line 1892, in det_bareis
+    M[i, j] = cancel(D)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/polytools.py", line 5220, in cancel
+    c, P, Q = F.cancel(G)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/polytools.py", line 3022, in cancel
+    result = F.cancel(G, include=include)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/polyclasses.py", line 630, in cancel
+    cF, cG, F, G = dmp_cancel(F, G, lev, dom, include=False)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1846, in dmp_cancel
+    _, p, q = dmp_inner_gcd(f, g, u, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1556, in dmp_inner_gcd
+    h, cff, cfg = _dmp_inner_gcd(f, g, u, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1526, in _dmp_inner_gcd
+    return dmp_zz_heu_gcd(f, g, u, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1315, in dmp_zz_heu_gcd
+    result = _dmp_rr_trivial_gcd(f, g, u, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 917, in _dmp_rr_trivial_gcd
+    return _dmp_simplify_gcd(f, g, u, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 959, in _dmp_simplify_gcd
+    F = dmp_content(f, u, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1763, in dmp_content
+    cont = dmp_gcd(cont, c, v, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1597, in dmp_gcd
+    return dmp_inner_gcd(f, g, u, K)[0]
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1556, in dmp_inner_gcd
+    h, cff, cfg = _dmp_inner_gcd(f, g, u, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1526, in _dmp_inner_gcd
+    return dmp_zz_heu_gcd(f, g, u, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1315, in dmp_zz_heu_gcd
+    result = _dmp_rr_trivial_gcd(f, g, u, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 917, in _dmp_rr_trivial_gcd
+    return _dmp_simplify_gcd(f, g, u, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 957, in _dmp_simplify_gcd
+    G = dmp_content(g, u, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1763, in dmp_content
+    cont = dmp_gcd(cont, c, v, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1597, in dmp_gcd
+    return dmp_inner_gcd(f, g, u, K)[0]
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1556, in dmp_inner_gcd
+    h, cff, cfg = _dmp_inner_gcd(f, g, u, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1526, in _dmp_inner_gcd
+    return dmp_zz_heu_gcd(f, g, u, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1315, in dmp_zz_heu_gcd
+    result = _dmp_rr_trivial_gcd(f, g, u, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 917, in _dmp_rr_trivial_gcd
+    return _dmp_simplify_gcd(f, g, u, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 963, in _dmp_simplify_gcd
+    h = dmp_gcd(F, G, v, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1597, in dmp_gcd
+    return dmp_inner_gcd(f, g, u, K)[0]
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1556, in dmp_inner_gcd
+    h, cff, cfg = _dmp_inner_gcd(f, g, u, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1526, in _dmp_inner_gcd
+    return dmp_zz_heu_gcd(f, g, u, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1341, in dmp_zz_heu_gcd
+    h, cff, cfg = dmp_zz_heu_gcd(ff, gg, v, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1341, in dmp_zz_heu_gcd
+    h, cff, cfg = dmp_zz_heu_gcd(ff, gg, v, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1341, in dmp_zz_heu_gcd
+    h, cff, cfg = dmp_zz_heu_gcd(ff, gg, v, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1341, in dmp_zz_heu_gcd
+    h, cff, cfg = dmp_zz_heu_gcd(ff, gg, v, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1341, in dmp_zz_heu_gcd
+    h, cff, cfg = dmp_zz_heu_gcd(ff, gg, v, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1341, in dmp_zz_heu_gcd
+    h, cff, cfg = dmp_zz_heu_gcd(ff, gg, v, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1341, in dmp_zz_heu_gcd
+    h, cff, cfg = dmp_zz_heu_gcd(ff, gg, v, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1341, in dmp_zz_heu_gcd
+    h, cff, cfg = dmp_zz_heu_gcd(ff, gg, v, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1341, in dmp_zz_heu_gcd
+    h, cff, cfg = dmp_zz_heu_gcd(ff, gg, v, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1341, in dmp_zz_heu_gcd
+    h, cff, cfg = dmp_zz_heu_gcd(ff, gg, v, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1341, in dmp_zz_heu_gcd
+    h, cff, cfg = dmp_zz_heu_gcd(ff, gg, v, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1341, in dmp_zz_heu_gcd
+    h, cff, cfg = dmp_zz_heu_gcd(ff, gg, v, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1341, in dmp_zz_heu_gcd
+    h, cff, cfg = dmp_zz_heu_gcd(ff, gg, v, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1313, in dmp_zz_heu_gcd
+    return dup_zz_heu_gcd(f, g, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1194, in dup_zz_heu_gcd
+    gcd, f, g = dup_extract(f, g, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/densetools.py", line 713, in dup_extract
+    fc = dup_content(f, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/densetools.py", line 595, in dup_content
+    cont = K.gcd(cont, c)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/domains/pythonintegerring.py", line 95, in gcd
+    return python_gcd(a, b)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/core/numbers.py", line 50, in igcd
+    a, b = b, a % b
+KeyboardInterrupt

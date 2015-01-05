@@ -1,0 +1,295 @@
+kohlbrecher@sk-i7:~/tmp/atlas_desc/build/vigir_atlas_common/atlas_description/drcsim_gazebo_standalone_models/atlas_v4$ python `openrave-config --python-dir`/openravepy/_openravepy_/ikfast.py --robot=atlas_v4_rounded.dae --iktype=transform6d --baselink=3 --eelink=30 --savefile=r_arm.cpp
+[plugindatabase.h:929 _SysLoadLibrary] /usr/local/share/openrave-0.9/plugins/openravepy_configurationcache.so: libconfigurationcache.so: cannot open shared object file: No such file or directory
+[plugindatabase.h:857 _LoadPlugin] failed to load: /usr/local/share/openrave-0.9/plugins/openravepy_configurationcache.so
+[plugindatabase.h:577 Create] Failed to create name ode, interface collisionchecker
+[plugindatabase.h:577 Create] Failed to create name bullet, interface collisionchecker
+[colladareader.cpp:2118 FillGeometryColor] transparecy is 1.000000, which means the item will be rendered invisible, this must be a mistake so setting to opaque (1)
+[colladareader.cpp:2118 FillGeometryColor] transparecy is 1.000000, which means the item will be rendered invisible, this must be a mistake so setting to opaque (1)
+[colladareader.cpp:2118 FillGeometryColor] transparecy is 1.000000, which means the item will be rendered invisible, this must be a mistake so setting to opaque (1)
+[colladareader.cpp:2118 FillGeometryColor] transparecy is 1.000000, which means the item will be rendered invisible, this must be a mistake so setting to opaque (1)
+[colladareader.cpp:2118 FillGeometryColor] transparecy is 1.000000, which means the item will be rendered invisible, this must be a mistake so setting to opaque (1)
+[colladareader.cpp:2118 FillGeometryColor] transparecy is 1.000000, which means the item will be rendered invisible, this must be a mistake so setting to opaque (1)
+[colladareader.cpp:2118 FillGeometryColor] transparecy is 1.000000, which means the item will be rendered invisible, this must be a mistake so setting to opaque (1)
+[colladareader.cpp:2118 FillGeometryColor] transparecy is 1.000000, which means the item will be rendered invisible, this must be a mistake so setting to opaque (1)
+[colladareader.cpp:2118 FillGeometryColor] transparecy is 1.000000, which means the item will be rendered invisible, this must be a mistake so setting to opaque (1)
+[colladareader.cpp:2118 FillGeometryColor] transparecy is 1.000000, which means the item will be rendered invisible, this must be a mistake so setting to opaque (1)
+[colladareader.cpp:2118 FillGeometryColor] transparecy is 1.000000, which means the item will be rendered invisible, this must be a mistake so setting to opaque (1)
+[colladareader.cpp:2118 FillGeometryColor] transparecy is 1.000000, which means the item will be rendered invisible, this must be a mistake so setting to opaque (1)
+/usr/local/lib/python2.7/dist-packages/openravepy/_openravepy_/ikfast.py:1437: RuntimeWarning: invalid value encountered in divide
+  axisangle /= angle
+INFO: moved translation [0, 0, 0] to right end
+INFO: moved translation [0, 0, -49/200] to left end
+INFO: moved translation on intersecting axis [0, 0, 0] to left
+INFO: [[1, 0, 0, 703/5000],[0, 1, 0, -141/625],[0, 0, 1, 1163/5000]]
+INFO: [[cos(j12), -sin(j12), 0, 0],[sin(j12), cos(j12), 0, 0],[0, 0, 1, 0]]
+INFO: [[0, 0, 1, 0],[0, 1, 0, -11/100],[-1, 0, 0, 0]]
+INFO: [[cos(j13), -sin(j13), 0, 0],[sin(j13), cos(j13), 0, 0],[0, 0, 1, 0]]
+INFO: [[0, 1, 0, 2/125],[0, 0, 1, -187/1000],[1, 0, 0, 0]]
+INFO: [[cos(j14), -sin(j14), 0, 0],[sin(j14), cos(j14), 0, 0],[0, 0, 1, 0]]
+INFO: [[0, 0, 1, 0],[1, 0, 0, -23/2500],[0, 1, 0, -119/1000]]
+INFO: [[cos(j15), -sin(j15), 0, 0],[sin(j15), cos(j15), 0, 0],[0, 0, 1, 0]]
+INFO: [[0, 1, 0, 23/2500],[0, 0, 1, -187/1000],[1, 0, 0, 0]]
+INFO: [[cos(j16), -sin(j16), 0, 0],[sin(j16), cos(j16), 0, 0],[0, 0, 1, 0]]
+INFO: [[0, 0, 1, 0],[1, 0, 0, -23/2500],[0, 1, 0, -119/1000]]
+INFO: [[cos(j17), -sin(j17), 0, 0],[sin(j17), cos(j17), 0, 0],[0, 0, 1, 0]]
+INFO: [[0, 0, -1, 0],[0, 1, 0, 0],[1, 0, 0, 0]]
+INFO: ikfast 6d: [j12, j13, j14, j15, j16, j17]
+INFO: found 3 consecutive non-intersecting axes links[0:5], vars=[j12, j13, j14]
+INFO: found 3 consecutive non-intersecting axes links[2:7], vars=[j13, j14, j15]
+INFO: found 3 consecutive non-intersecting axes links[4:9], vars=[j14, j15, j16]
+INFO: found 3 consecutive non-intersecting axes links[6:11], vars=[j15, j16, j17]
+INFO: try group 0/4
+INFO: computed in 3.449526s
+INFO: computed in 5.941876s
+INFO: attempting li/woernle/hiller general ik method
+INFO: assuming equation Poly(htj15, cj13, sj13, cj14, sj14, cj16, sj16, cj17, sj17, htj15, domain='ZZ[r20,r21,r22]') is non-zero
+INFO: not unique: -cj13*sj14 - cj16*r22 + cj17*r20*sj16 - r21*sj16*sj17
+INFO: assuming equation Poly(htj15, cj13, sj13, cj14, sj14, cj16, sj16, cj17, sj17, htj15, domain='QQ[npx,npy,npz]') is non-zero
+INFO: not unique: cj16*npz - cj17*npx*sj16 + npy*sj16*sj17 + 11*sj13*sj14/100 - 2*sj14/125 - 23*sj16/2500
+INFO: assuming equation Poly(htj15, cj13, sj13, cj14, sj14, cj16, sj16, cj17, sj17, htj15, domain='QQ[r20,r21,r22,rxp0_2,rxp1_2,rxp2_2]') is non-zero
+INFO: not unique: -153*cj13*cj14/500 + 2*cj14*sj13/125 - 11*cj14/100 + 153*cj16*cj17*r20/500 - 23*cj16*cj17*r21/2500 - 23*cj16*r20*sj17/2500 - 153*cj16*r21*sj17/500 - cj16*rxp2_2 + 23*cj17*r21/2500 + cj17*rxp0_2*sj16 + 23*r20*sj17/2500 + 153*r22*sj16/500 - rxp1_2*sj16*sj17 - 23*sj13/2500
+INFO: assuming equation Poly(htj15, cj13, sj13, cj14, sj14, cj16, sj16, cj17, sj17, htj15, domain='QQ[npx,npy,npz,pp]') is non-zero
+INFO: not unique: 1683*cj13/25000 + 253*cj14*sj13/125000 - 23*cj14/78125 + 23*cj16*cj17*npx/1250 - 23*cj16*npy*sj17/1250 + 529*cj16/3125000 - 23*cj17*npx/1250 - 153*cj17*npy/250 - 153*npx*sj17/250 + 23*npy*sj17/1250 + 23*npz*sj16/1250 - pp - 11*sj13/3125 + 9587/781250
+INFO: assuming equation Poly(htj15, cj13, sj13, cj14, sj14, cj16, sj16, cj17, sj17, htj15, domain='QQ[pz,r20,r21,r22]') is non-zero
+INFO: not unique: -23*cj13*cj14/2500 + 2*cj13/125 - 23*cj16*cj17*r20/2500 + 23*cj16*r21*sj17/2500 + 23*cj17*r20/2500 + 153*cj17*r21/500 + pz + 153*r20*sj17/500 - 23*r21*sj17/2500 - 23*r22*sj16/2500 + 153*sj13/500
+INFO: assuming equation Poly(htj15, cj13, sj13, cj14, sj14, cj16, sj16, cj17, sj17, htj15, domain='QQ[npx,npy,npz,pp,pz,r20,r21,r22,rxp0_2,rxp1_2,rxp2_2]') is non-zero
+INFO: not unique: -659779*cj13*sj14/6250000 - 153*cj16*cj17*rxp0_2/250 + 23*cj16*cj17*rxp1_2/1250 + 2*cj16*npz*pz - cj16*pp*r22 - 586283*cj16*r22/6250000 + 23*cj16*rxp0_2*sj17/1250 + 153*cj16*rxp1_2*sj17/250 - 2*cj17*npx*pz*sj16 + cj17*pp*r20*sj16 + 23409*cj17*r20*sj16/250000 - 3519*cj17*r21*sj16/625000 - 23*cj17*rxp1_2/1250 + 2*npy*pz*sj16*sj17 - pp*r21*sj16*sj17 - 23*pz*sj16/1250 - 3519*r20*sj16*sj17/625000 - 23409*r21*sj16*sj17/250000 + 529*r22/3125000 - 23*rxp0_2*sj17/1250 - 153*rxp2_2*sj16/250 + 153*sj13*sj14/15625 - 1683*sj14/25000
+WARNING: solving (cj15, sj15, cj16, sj16, cj17, sj17): CannotSolveError: new monoms is 16>14
+INFO: attempting li/woernle/hiller general ik method
+INFO: assuming equation Poly(htj12, cj16, sj16, cj17, sj17, cj13, sj13, cj14, sj14, htj12, domain='ZZ[r20,r21,r22]') is non-zero
+INFO: not unique: cj13*sj14 + cj16*r22 - cj17*r20*sj16 + r21*sj16*sj17
+INFO: assuming equation Poly(htj12, cj16, sj16, cj17, sj17, cj13, sj13, cj14, sj14, htj12, domain='QQ[r20,r21,r22,pz]') is non-zero
+INFO: not unique: -23*cj13*cj14/2500 + 2*cj13/125 - 23*cj16*cj17*r20/2500 + 23*cj16*r21*sj17/2500 + 23*cj17*r20/2500 + 153*cj17*r21/500 + pz + 153*r20*sj17/500 - 23*r21*sj17/2500 - 23*r22*sj16/2500 + 153*sj13/500
+INFO: assuming equation Poly(htj12, cj16, sj16, cj17, sj17, cj13, sj13, cj14, sj14, htj12, domain='QQ[r20,r21,r22,rxp0_2,rxp1_2,rxp2_2]') is non-zero
+INFO: not unique: 153*cj13*cj14/500 - 2*cj14*sj13/125 + 11*cj14/100 - 153*cj16*cj17*r20/500 + 23*cj16*cj17*r21/2500 + 23*cj16*r20*sj17/2500 + 153*cj16*r21*sj17/500 + cj16*rxp2_2 - 23*cj17*r21/2500 - cj17*rxp0_2*sj16 - 23*r20*sj17/2500 - 153*r22*sj16/500 + rxp1_2*sj16*sj17 + 23*sj13/2500
+INFO: assuming equation Poly(htj12, cj16, sj16, cj17, sj17, cj13, sj13, cj14, sj14, htj12, domain='QQ[npx,npy,npz,pp]') is non-zero
+INFO: not unique: -1683*cj13/25000 - 253*cj14*sj13/125000 + 23*cj14/78125 - 23*cj16*cj17*npx/1250 + 23*cj16*npy*sj17/1250 - 529*cj16/3125000 + 23*cj17*npx/1250 + 153*cj17*npy/250 + 153*npx*sj17/250 - 23*npy*sj17/1250 - 23*npz*sj16/1250 + pp + 11*sj13/3125 - 9587/781250
+INFO: assuming equation Poly(htj12, cj16, sj16, cj17, sj17, cj13, sj13, cj14, sj14, htj12, domain='QQ[npx,npy,npz]') is non-zero
+INFO: not unique: cj16*npz - cj17*npx*sj16 + npy*sj16*sj17 + 11*sj13*sj14/100 - 2*sj14/125 - 23*sj16/2500
+INFO: assuming equation Poly(htj12, cj16, sj16, cj17, sj17, cj13, sj13, cj14, sj14, htj12, domain='QQ[npx,npy,npz,pp,pz,r20,r21,r22,rxp0_2,rxp1_2,rxp2_2]') is non-zero
+INFO: not unique: -153*cj16*cj17*rxp0_2/250 + 23*cj16*cj17*rxp1_2/1250 + 2*cj16*npz*pz - cj16*pp*r22 + 9187*cj16*r22/781250 + 23*cj16*rxp0_2*sj17/1250 + 153*cj16*rxp1_2*sj17/250 - 2*cj17*npx*pz*sj16 + cj17*pp*r20*sj16 - 37277*cj17*r20*sj16/3125000 - 3519*cj17*r21*sj16/625000 - 23*cj17*rxp1_2/1250 + 2*npy*pz*sj16*sj17 - pp*r21*sj16*sj17 - 23*pz*sj16/1250 - 3519*r20*sj16*sj17/625000 + 37277*r21*sj16*sj17/3125000 + 529*r22/3125000 - 23*rxp0_2*sj17/1250 - 153*rxp2_2*sj16/250 + 153*sj13*sj14/15625 - 1683*sj14/25000
+WARNING: solving (cj12, sj12, cj13, sj13, cj14, sj14): CannotSolveError: new monoms is 15>14
+WARNING: CannotSolveError: 6D general method failed, raghavan roth equations might be too complex
+INFO: try group 1/4
+INFO: computed in 6.706914s
+INFO: computed in 2.832289s
+INFO: attempting li/woernle/hiller general ik method
+INFO: assuming equation Poly(htj13, cj12, sj12, cj17, sj17, cj14, sj14, cj15, sj15, htj13, domain='ZZ[r00,r01,r10,r11]') is non-zero
+INFO: not unique: cj12*cj17*r01 + cj12*r00*sj17 + cj17*r11*sj12 + r10*sj12*sj17 - sj14*sj15
+INFO: assuming equation Poly(htj13, cj12, sj12, cj17, sj17, cj14, sj14, cj15, sj15, htj13, domain='QQ[px,py,r00,r01,r10,r11]') is non-zero
+INFO: not unique: 23*cj12*cj17*r00/2500 + 153*cj12*cj17*r01/500 + cj12*px + 153*cj12*r00*sj17/500 - 23*cj12*r01*sj17/2500 + 23*cj15*sj14/2500 + 23*cj17*r10*sj12/2500 + 153*cj17*r11*sj12/500 + py*sj12 + 153*r10*sj12*sj17/500 - 23*r11*sj12*sj17/2500 - 23*sj14/2500
+INFO: assuming equation Poly(htj13, cj12, sj12, cj17, sj17, cj14, sj14, cj15, sj15, htj13, domain='QQ[r02,r12,r20,r21,rxp0_0,rxp0_1,rxp1_0,rxp1_1]') is non-zero
+INFO: not unique: cj12*cj17*rxp1_0 - 23*cj12*r02/2500 + cj12*rxp0_0*sj17 - 23*cj14*cj15/2500 - 153*cj14*sj15/500 + 23*cj14/2500 + 2*cj15/125 - 11*cj17*r21/100 + cj17*rxp1_1*sj12 - 23*r12*sj12/2500 - 11*r20*sj17/100 + rxp0_1*sj12*sj17
+INFO: assuming equation Poly(htj13, cj12, sj12, cj17, sj17, cj14, sj14, cj15, sj15, htj13, domain='QQ[r00,r01,r10,r11,npx,npy,pp,px,py]') is non-zero
+INFO: not unique: 253*cj12*cj17*r10/125000 + 1309*cj12*cj17*r11/50000 + 11*cj12*py/50 + 1309*cj12*r10*sj17/50000 - 253*cj12*r11*sj17/125000 - 23*cj14*cj15/78125 - 187*cj14*sj15/31250 + 23*cj14/78125 - 714217*cj15/6250000 + 23*cj17*npx/1250 + 119*cj17*npy/500 - 253*cj17*r00*sj12/125000 - 1309*cj17*r01*sj12/50000 + 119*npx*sj17/500 - 23*npy*sj17/1250 + pp - 11*px*sj12/50 - 1309*r00*sj12*sj17/50000 + 253*r01*sj12*sj17/125000 + 11339*sj15/1250000 - 641779/6250000
+INFO: assuming equation Poly(htj13, cj12, sj12, cj17, sj17, cj14, sj14, cj15, sj15, htj13, domain='QQ[r00,r01,r10,r11,npx,npy]') is non-zero
+INFO: not unique: 11*cj12*cj17*r11/100 + 11*cj12*r10*sj17/100 + 2*cj14*sj15/125 + 153*cj15/500 + cj17*npy - 11*cj17*r01*sj12/100 + npx*sj17 - 11*r00*sj12*sj17/100 - 23*sj15/2500 + 153/500
+INFO: assuming equation Poly(htj13, cj12, sj12, cj17, sj17, cj14, sj14, cj15, sj15, htj13, domain='QQ[npx,npy,pp,px,py,r00,r01,r10,r11,r22,rxp0_2,rxp1_2,rxp2_0,rxp2_1]') is non-zero
+INFO: not unique: -2*cj12*cj17*npy*px + cj12*cj17*pp*r01 - 2737*cj12*cj17*r00/1250000 - 380621*cj12*cj17*r01/6250000 - 2*cj12*npx*px*sj17 + cj12*pp*r00*sj17 - 119*cj12*px/500 - 380621*cj12*r00*sj17/6250000 + 2737*cj12*r01*sj17/1250000 + 23*cj12*rxp2_0/1250 - 2737*cj15*sj14/1250000 - 2*cj17*npy*py*sj12 + cj17*pp*r11*sj12 - 2737*cj17*r10*sj12/1250000 - 380621*cj17*r11*sj12/6250000 + 11*cj17*rxp1_2/50 - 2*npx*py*sj12*sj17 + pp*r10*sj12*sj17 - 119*py*sj12/500 - 380621*r10*sj12*sj17/6250000 + 2737*r11*sj12*sj17/1250000 - 253*r22/125000 + 11*rxp0_2*sj17/50 + 23*rxp2_1*sj12/1250 + 2737*sj14/1250000
+WARNING: solving (cj13, sj13, cj14, sj14, cj15, sj15): CannotSolveError: new monoms is 15>14
+INFO: attempting li/woernle/hiller general ik method
+INFO: assuming equation Poly(htj16, cj14, sj14, cj15, sj15, cj12, sj12, cj17, sj17, htj16, domain='ZZ[r00,r01,r10,r11]') is non-zero
+INFO: not unique: -cj12*cj17*r01 - cj12*r00*sj17 - cj17*r11*sj12 - r10*sj12*sj17 + sj14*sj15
+INFO: assuming equation Poly(htj16, cj14, sj14, cj15, sj15, cj12, sj12, cj17, sj17, htj16, domain='QQ[r00,r01,r10,r11,npx,npy]') is non-zero
+INFO: not unique: 11*cj12*cj17*r11/100 + 11*cj12*r10*sj17/100 + 2*cj14*sj15/125 + 153*cj15/500 + cj17*npy - 11*cj17*r01*sj12/100 + npx*sj17 - 11*r00*sj12*sj17/100 - 23*sj15/2500 + 153/500
+INFO: assuming equation Poly(htj16, cj14, sj14, cj15, sj15, cj12, sj12, cj17, sj17, htj16, domain='QQ[r02,r12,r20,r21,rxp0_0,rxp0_1,rxp1_0,rxp1_1]') is non-zero
+INFO: not unique: -cj12*cj17*rxp1_0 + 23*cj12*r02/2500 - cj12*rxp0_0*sj17 + 23*cj14*cj15/2500 + 153*cj14*sj15/500 - 23*cj14/2500 - 2*cj15/125 + 11*cj17*r21/100 - cj17*rxp1_1*sj12 + 23*r12*sj12/2500 + 11*r20*sj17/100 - rxp0_1*sj12*sj17
+INFO: assuming equation Poly(htj16, cj14, sj14, cj15, sj15, cj12, sj12, cj17, sj17, htj16, domain='QQ[npx,npy,pp,px,py,r00,r01,r10,r11]') is non-zero
+INFO: not unique: -253*cj12*cj17*r10/125000 - 1309*cj12*cj17*r11/50000 - 11*cj12*py/50 - 1309*cj12*r10*sj17/50000 + 253*cj12*r11*sj17/125000 + 23*cj14*cj15/78125 + 187*cj14*sj15/31250 - 23*cj14/78125 + 714217*cj15/6250000 - 23*cj17*npx/1250 - 119*cj17*npy/500 + 253*cj17*r00*sj12/125000 + 1309*cj17*r01*sj12/50000 - 119*npx*sj17/500 + 23*npy*sj17/1250 - pp + 11*px*sj12/50 + 1309*r00*sj12*sj17/50000 - 253*r01*sj12*sj17/125000 - 11339*sj15/1250000 + 641779/6250000
+INFO: assuming equation Poly(htj16, cj14, sj14, cj15, sj15, cj12, sj12, cj17, sj17, htj16, domain='QQ[r00,r01,r10,r11,px,py]') is non-zero
+INFO: not unique: 23*cj12*cj17*r00/2500 + 119*cj12*cj17*r01/1000 + cj12*px + 119*cj12*r00*sj17/1000 - 23*cj12*r01*sj17/2500 + 23*cj15*sj14/2500 + 23*cj17*r10*sj12/2500 + 119*cj17*r11*sj12/1000 + py*sj12 + 119*r10*sj12*sj17/1000 - 23*r11*sj12*sj17/2500 + 187*sj14*sj15/1000 - 23*sj14/2500
+INFO: assuming equation Poly(htj16, cj14, sj14, cj15, sj15, cj12, sj12, cj17, sj17, htj16, domain='QQ[npx,npy,pp,px,py,r00,r01,r10,r11,r22,rxp0_2,rxp1_2,rxp2_0,rxp2_1]') is non-zero
+INFO: not unique: 2*cj12*cj17*npy*px - cj12*cj17*pp*r01 + 2737*cj12*cj17*r00/1250000 + 49409*cj12*cj17*r01/25000000 + 2*cj12*npx*px*sj17 - cj12*pp*r00*sj17 + 119*cj12*px/500 + 49409*cj12*r00*sj17/25000000 - 2737*cj12*r01*sj17/1250000 - 23*cj12*rxp2_0/1250 + 2737*cj15*sj14/1250000 + 2*cj17*npy*py*sj12 - cj17*pp*r11*sj12 + 2737*cj17*r10*sj12/1250000 + 49409*cj17*r11*sj12/25000000 - 11*cj17*rxp1_2/50 + 2*npx*py*sj12*sj17 - pp*r10*sj12*sj17 + 119*py*sj12/500 + 49409*r10*sj12*sj17/25000000 - 2737*r11*sj12*sj17/1250000 + 253*r22/125000 - 11*rxp0_2*sj17/50 - 23*rxp2_1*sj12/1250 + 58923*sj14*sj15/1000000 - 2737*sj14/1250000
+WARNING: solving (cj12, sj12, cj16, sj16, cj17, sj17): CannotSolveError: new monoms is 16>14
+WARNING: CannotSolveError: 6D general method failed, raghavan roth equations might be too complex
+INFO: try group 2/4
+WARNING: raghavan roth equation (11,1) too complex
+WARNING: raghavan roth equation (12,1) too complex
+INFO: computed in 16.195888s
+INFO: computed in 0.809080s
+INFO: attempting li/woernle/hiller general ik method
+INFO: assuming equation Poly(htj14, cj12, sj12, cj13, sj13, cj15, sj15, cj16, sj16, htj14, domain='ZZ[r02,r12,r22]') is non-zero
+INFO: not unique: cj12*cj13*r12 - cj13*r02*sj12 + r22*sj13 - sj15*sj16
+INFO: assuming equation Poly(htj14, cj12, sj12, cj13, sj13, cj15, sj15, cj16, sj16, htj14, domain='QQ[px,py,pz]') is non-zero
+INFO: not unique: cj12*cj13*py - cj13*px*sj12 + 11*cj13/100 + 153*cj15/500 + 23*cj16*sj15/2500 + pz*sj13 - 23*sj15/2500 + 153/500
+INFO: assuming equation Poly(htj14, cj12, sj12, cj13, sj13, cj15, sj15, cj16, sj16, htj14, domain='QQ[r02,r12,rxp2_0,rxp2_1,rxp2_2]') is non-zero
+INFO: not unique: cj12*cj13*rxp2_1 + 11*cj12*r02*sj13/100 - 2*cj12*r02/125 - cj13*rxp2_0*sj12 - 23*cj15*cj16/2500 + 23*cj15/2500 - 153*cj16*sj15/500 + 23*cj16/2500 + 11*r12*sj12*sj13/100 - 2*r12*sj12/125 + rxp2_2*sj13
+INFO: assuming equation Poly(htj14, cj12, sj12, cj13, sj13, cj15, sj15, cj16, sj16, htj14, domain='QQ[pp,px,py,pz]') is non-zero
+INFO: not unique: 187*cj12*cj13*py/500 - 4*cj12*py*sj13/125 + 11*cj12*py/50 - 187*cj13*px*sj12/500 + 4*cj13*pz/125 + 2057*cj13/50000 - 529*cj15*cj16/3125000 - 454117*cj15/6250000 - 2737*cj16*sj15/1250000 + 529*cj16/3125000 + pp + 4*px*sj12*sj13/125 - 11*px*sj12/50 + 187*pz*sj13/500 - 11*sj13/3125 + 391*sj15/50000 - 379537/6250000
+INFO: assuming equation Poly(htj14, cj12, sj12, cj13, sj13, cj15, sj15, cj16, sj16, htj14, domain='QQ[npz,r02,r12,r22]') is non-zero
+INFO: not unique: 153*cj12*cj13*r12/500 - 2*cj12*r12*sj13/125 + 11*cj12*r12/100 - 153*cj13*r02*sj12/500 + 2*cj13*r22/125 + 23*cj15*sj16/2500 + npz + 2*r02*sj12*sj13/125 - 11*r02*sj12/100 + 153*r22*sj13/500 - 23*sj16/2500
+INFO: assuming equation Poly(htj14, cj12, sj12, cj13, sj13, cj15, sj15, cj16, sj16, htj14, domain='QQ[npz,pp,px,py,pz,r02,r12,r22,rxp2_0,rxp2_1]') is non-zero
+INFO: not unique: -2*cj12*cj13*npz*py + cj12*cj13*pp*r12 - 789829*cj12*cj13*r12/6250000 + 187*cj12*r12*sj13/31250 - 2057*cj12*r12/50000 - 11*cj12*rxp2_0*sj13/50 + 4*cj12*rxp2_0/125 + 2*cj13*npz*px*sj12 - 11*cj13*npz/50 - cj13*pp*r02*sj12 + 789829*cj13*r02*sj12/6250000 - 187*cj13*r22/31250 - 4301*cj15*sj16/1250000 - 2*npz*pz*sj13 - 187*npz/500 + pp*r22*sj13 - 187*r02*sj12*sj13/31250 + 2057*r02*sj12/50000 - 638579*r22*sj13/6250000 - 11*r22/3125 - 11*rxp2_1*sj12*sj13/50 + 4*rxp2_1*sj12/125 + 4301*sj16/1250000
+WARNING: solving (cj14, sj14, cj15, sj15, cj16, sj16): CannotSolveError: new monoms is 15>14
+INFO: skipping simplification since complexity is 7857...
+INFO: skipping simplification since complexity is 7858...
+INFO: attempting li/woernle/hiller general ik method
+INFO: assuming equation Poly(htj17, cj15, sj15, cj16, sj16, cj12, sj12, cj13, sj13, htj17, domain='ZZ[r02,r12,r22]') is non-zero
+INFO: not unique: -cj12*cj13*r12 + cj13*r02*sj12 - r22*sj13 + sj15*sj16
+INFO: assuming equation Poly(htj17, cj15, sj15, cj16, sj16, cj12, sj12, cj13, sj13, htj17, domain='QQ[npz,r02,r12,r22]') is non-zero
+INFO: not unique: 187*cj12*cj13*r12/1000 - 2*cj12*r12*sj13/125 + 11*cj12*r12/100 - 187*cj13*r02*sj12/1000 + 2*cj13*r22/125 + 23*cj15*sj16/2500 + npz + 2*r02*sj12*sj13/125 - 11*r02*sj12/100 + 187*r22*sj13/1000 + 119*sj15*sj16/1000 - 23*sj16/2500
+INFO: assuming equation Poly(htj17, cj15, sj15, cj16, sj16, cj12, sj12, cj13, sj13, htj17, domain='QQ[r02,r12,rxp2_0,rxp2_1,rxp2_2]') is non-zero
+INFO: not unique: -cj12*cj13*rxp2_1 - 11*cj12*r02*sj13/100 + 2*cj12*r02/125 + cj13*rxp2_0*sj12 + 23*cj15*cj16/2500 - 23*cj15/2500 + 153*cj16*sj15/500 - 23*cj16/2500 - 11*r12*sj12*sj13/100 + 2*r12*sj12/125 - rxp2_2*sj13
+INFO: assuming equation Poly(htj17, cj15, sj15, cj16, sj16, cj12, sj12, cj13, sj13, htj17, domain='QQ[pp,px,py,pz]') is non-zero
+INFO: not unique: -187*cj12*cj13*py/500 + 4*cj12*py*sj13/125 - 11*cj12*py/50 + 187*cj13*px*sj12/500 - 4*cj13*pz/125 - 2057*cj13/50000 + 529*cj15*cj16/3125000 + 454117*cj15/6250000 + 2737*cj16*sj15/1250000 - 529*cj16/3125000 - pp - 4*px*sj12*sj13/125 + 11*px*sj12/50 - 187*pz*sj13/500 + 11*sj13/3125 - 391*sj15/50000 + 379537/6250000
+INFO: assuming equation Poly(htj17, cj15, sj15, cj16, sj16, cj12, sj12, cj13, sj13, htj17, domain='QQ[px,py,pz]') is non-zero
+INFO: not unique: cj12*cj13*py - cj13*px*sj12 + 11*cj13/100 + 153*cj15/500 + 23*cj16*sj15/2500 + pz*sj13 - 23*sj15/2500 + 153/500
+INFO: assuming equation Poly(htj17, cj15, sj15, cj16, sj16, cj12, sj12, cj13, sj13, htj17, domain='QQ[npz,pp,px,py,pz,r02,r12,r22,rxp2_0,rxp2_1]') is non-zero
+INFO: not unique: 2*cj12*cj13*npz*py - cj12*cj13*pp*r12 + 46813*cj12*cj13*r12/1000000 - 187*cj12*r12*sj13/31250 + 2057*cj12*r12/50000 + 11*cj12*rxp2_0*sj13/50 - 4*cj12*rxp2_0/125 - 2*cj13*npz*px*sj12 + 11*cj13*npz/50 + cj13*pp*r02*sj12 - 46813*cj13*r02*sj12/1000000 + 187*cj13*r22/31250 + 4301*cj15*sj16/1250000 + 2*npz*pz*sj13 + 187*npz/500 - pp*r22*sj13 + 187*r02*sj12*sj13/31250 - 2057*r02*sj12/50000 + 22613*r22*sj13/1000000 + 11*r22/3125 + 11*rxp2_1*sj12*sj13/50 - 4*rxp2_1*sj12/125 + 1988991*sj15*sj16/25000000 - 4301*sj16/1250000
+WARNING: solving (cj12, sj12, cj13, sj13, cj17, sj17): CannotSolveError: new monoms is 88>14
+WARNING: CannotSolveError: 6D general method failed, raghavan roth equations might be too complex
+INFO: try group 3/4
+WARNING: raghavan roth equation (11,0) too complex
+WARNING: raghavan roth equation (12,0) too complex
+WARNING: raghavan roth equation (13,0) too complex
+INFO: computed in 31.300171s
+INFO: computed in 1.230037s
+INFO: attempting li/woernle/hiller general ik method
+INFO: assuming equation Poly(htj15, cj13, sj13, cj14, sj14, cj16, sj16, cj17, sj17, htj15, domain='ZZ[r20,r21,r22]') is non-zero
+INFO: not unique: -cj13*sj14 - cj16*r22 + cj17*r20*sj16 - r21*sj16*sj17
+INFO: assuming equation Poly(htj15, cj13, sj13, cj14, sj14, cj16, sj16, cj17, sj17, htj15, domain='QQ[npx,npy,npz]') is non-zero
+INFO: not unique: cj16*npz - cj17*npx*sj16 + npy*sj16*sj17 + 11*sj13*sj14/100 - 2*sj14/125 - 23*sj16/2500
+INFO: assuming equation Poly(htj15, cj13, sj13, cj14, sj14, cj16, sj16, cj17, sj17, htj15, domain='QQ[r20,r21,r22,rxp0_2,rxp1_2,rxp2_2]') is non-zero
+INFO: not unique: -153*cj13*cj14/500 + 2*cj14*sj13/125 - 11*cj14/100 + 153*cj16*cj17*r20/500 - 23*cj16*cj17*r21/2500 - 23*cj16*r20*sj17/2500 - 153*cj16*r21*sj17/500 - cj16*rxp2_2 + 23*cj17*r21/2500 + cj17*rxp0_2*sj16 + 23*r20*sj17/2500 + 153*r22*sj16/500 - rxp1_2*sj16*sj17 - 23*sj13/2500
+INFO: assuming equation Poly(htj15, cj13, sj13, cj14, sj14, cj16, sj16, cj17, sj17, htj15, domain='QQ[npx,npy,npz,pp]') is non-zero
+INFO: not unique: 1683*cj13/25000 + 253*cj14*sj13/125000 - 23*cj14/78125 + 23*cj16*cj17*npx/1250 - 23*cj16*npy*sj17/1250 + 529*cj16/3125000 - 23*cj17*npx/1250 - 153*cj17*npy/250 - 153*npx*sj17/250 + 23*npy*sj17/1250 + 23*npz*sj16/1250 - pp - 11*sj13/3125 + 9587/781250
+INFO: assuming equation Poly(htj15, cj13, sj13, cj14, sj14, cj16, sj16, cj17, sj17, htj15, domain='QQ[pz,r20,r21,r22]') is non-zero
+INFO: not unique: -23*cj13*cj14/2500 + 2*cj13/125 - 23*cj16*cj17*r20/2500 + 23*cj16*r21*sj17/2500 + 23*cj17*r20/2500 + 153*cj17*r21/500 + pz + 153*r20*sj17/500 - 23*r21*sj17/2500 - 23*r22*sj16/2500 + 153*sj13/500
+INFO: assuming equation Poly(htj15, cj13, sj13, cj14, sj14, cj16, sj16, cj17, sj17, htj15, domain='QQ[npx,npy,npz,pp,pz,r20,r21,r22,rxp0_2,rxp1_2,rxp2_2]') is non-zero
+INFO: not unique: -659779*cj13*sj14/6250000 - 153*cj16*cj17*rxp0_2/250 + 23*cj16*cj17*rxp1_2/1250 + 2*cj16*npz*pz - cj16*pp*r22 - 586283*cj16*r22/6250000 + 23*cj16*rxp0_2*sj17/1250 + 153*cj16*rxp1_2*sj17/250 - 2*cj17*npx*pz*sj16 + cj17*pp*r20*sj16 + 23409*cj17*r20*sj16/250000 - 3519*cj17*r21*sj16/625000 - 23*cj17*rxp1_2/1250 + 2*npy*pz*sj16*sj17 - pp*r21*sj16*sj17 - 23*pz*sj16/1250 - 3519*r20*sj16*sj17/625000 - 23409*r21*sj16*sj17/250000 + 529*r22/3125000 - 23*rxp0_2*sj17/1250 - 153*rxp2_2*sj16/250 + 153*sj13*sj14/15625 - 1683*sj14/25000
+WARNING: solving (cj15, sj15, cj16, sj16, cj17, sj17): CannotSolveError: new monoms is 16>14
+INFO: skipping simplification since complexity is 12804...
+INFO: skipping simplification since complexity is 12804...
+INFO: skipping simplification since complexity is 12804...
+INFO: attempting li/woernle/hiller general ik method
+^CTraceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/openravepy/_openravepy_/ikfast.py", line 9068, in <module>
+    chaintree = solver.generateIkSolver(options.baselink,options.eelink,options.freeindices,solvefn=solvefn)
+  File "/usr/local/lib/python2.7/dist-packages/openravepy/_openravepy_/ikfast.py", line 2257, in generateIkSolver
+    chaintree = solvefn(self, LinksRaw, jointvars, isolvejointvars)
+  File "/usr/local/lib/python2.7/dist-packages/openravepy/_openravepy_/ikfast.py", line 2911, in solveFullIK_6D
+    tree = self.solveFullIK_6DGeneral(T0links, T1links, solvejointvars, endbranchtree, usesolvers=1)
+  File "/usr/local/lib/python2.7/dist-packages/openravepy/_openravepy_/ikfast.py", line 3213, in solveFullIK_6DGeneral
+    coupledsolutions,usedvars = solvemethod(rawpolyeqs,solvejointvars,endbranchtree=endbranchtree,AllEquationsExtra=AllEquationsExtra)
+  File "/usr/local/lib/python2.7/dist-packages/openravepy/_openravepy_/ikfast.py", line 4480, in solveLiWoernleHiller
+    coeff, factors = (peq[1]-peq[0]).factor_list()
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/polytools.py", line 2623, in factor_list
+    coeff, factors = f.rep.factor_list()
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/polyclasses.py", line 710, in factor_list
+    coeff, factors = dmp_factor_list(f.rep, f.lev, f.dom)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/factortools.py", line 1247, in dmp_factor_list
+    coeff, factors = dmp_factor_list(f, v, K.dom)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/factortools.py", line 1240, in dmp_factor_list
+    coeff, factors = dmp_zz_factor(f, v, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/factortools.py", line 1040, in dmp_zz_factor
+    G, g = dmp_primitive(g, u, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1789, in dmp_primitive
+    cont, v = dmp_content(f, u, K), u-1
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1763, in dmp_content
+    cont = dmp_gcd(cont, c, v, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1597, in dmp_gcd
+    return dmp_inner_gcd(f, g, u, K)[0]
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1556, in dmp_inner_gcd
+    h, cff, cfg = _dmp_inner_gcd(f, g, u, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1526, in _dmp_inner_gcd
+    return dmp_zz_heu_gcd(f, g, u, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1315, in dmp_zz_heu_gcd
+    result = _dmp_rr_trivial_gcd(f, g, u, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 917, in _dmp_rr_trivial_gcd
+    return _dmp_simplify_gcd(f, g, u, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 957, in _dmp_simplify_gcd
+    G = dmp_content(g, u, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1763, in dmp_content
+    cont = dmp_gcd(cont, c, v, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1597, in dmp_gcd
+    return dmp_inner_gcd(f, g, u, K)[0]
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1556, in dmp_inner_gcd
+    h, cff, cfg = _dmp_inner_gcd(f, g, u, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1526, in _dmp_inner_gcd
+    return dmp_zz_heu_gcd(f, g, u, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1341, in dmp_zz_heu_gcd
+    h, cff, cfg = dmp_zz_heu_gcd(ff, gg, v, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1341, in dmp_zz_heu_gcd
+    h, cff, cfg = dmp_zz_heu_gcd(ff, gg, v, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1315, in dmp_zz_heu_gcd
+    result = _dmp_rr_trivial_gcd(f, g, u, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 917, in _dmp_rr_trivial_gcd
+    return _dmp_simplify_gcd(f, g, u, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 963, in _dmp_simplify_gcd
+    h = dmp_gcd(F, G, v, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1597, in dmp_gcd
+    return dmp_inner_gcd(f, g, u, K)[0]
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1556, in dmp_inner_gcd
+    h, cff, cfg = _dmp_inner_gcd(f, g, u, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1526, in _dmp_inner_gcd
+    return dmp_zz_heu_gcd(f, g, u, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1315, in dmp_zz_heu_gcd
+    result = _dmp_rr_trivial_gcd(f, g, u, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 917, in _dmp_rr_trivial_gcd
+    return _dmp_simplify_gcd(f, g, u, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 963, in _dmp_simplify_gcd
+    h = dmp_gcd(F, G, v, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1597, in dmp_gcd
+    return dmp_inner_gcd(f, g, u, K)[0]
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1556, in dmp_inner_gcd
+    h, cff, cfg = _dmp_inner_gcd(f, g, u, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1526, in _dmp_inner_gcd
+    return dmp_zz_heu_gcd(f, g, u, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1315, in dmp_zz_heu_gcd
+    result = _dmp_rr_trivial_gcd(f, g, u, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 917, in _dmp_rr_trivial_gcd
+    return _dmp_simplify_gcd(f, g, u, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 963, in _dmp_simplify_gcd
+    h = dmp_gcd(F, G, v, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1597, in dmp_gcd
+    return dmp_inner_gcd(f, g, u, K)[0]
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1556, in dmp_inner_gcd
+    h, cff, cfg = _dmp_inner_gcd(f, g, u, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1526, in _dmp_inner_gcd
+    return dmp_zz_heu_gcd(f, g, u, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1315, in dmp_zz_heu_gcd
+    result = _dmp_rr_trivial_gcd(f, g, u, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 917, in _dmp_rr_trivial_gcd
+    return _dmp_simplify_gcd(f, g, u, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 963, in _dmp_simplify_gcd
+    h = dmp_gcd(F, G, v, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1597, in dmp_gcd
+    return dmp_inner_gcd(f, g, u, K)[0]
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1556, in dmp_inner_gcd
+    h, cff, cfg = _dmp_inner_gcd(f, g, u, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1526, in _dmp_inner_gcd
+    return dmp_zz_heu_gcd(f, g, u, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1341, in dmp_zz_heu_gcd
+    h, cff, cfg = dmp_zz_heu_gcd(ff, gg, v, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1341, in dmp_zz_heu_gcd
+    h, cff, cfg = dmp_zz_heu_gcd(ff, gg, v, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1341, in dmp_zz_heu_gcd
+    h, cff, cfg = dmp_zz_heu_gcd(ff, gg, v, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1341, in dmp_zz_heu_gcd
+    h, cff, cfg = dmp_zz_heu_gcd(ff, gg, v, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1341, in dmp_zz_heu_gcd
+    h, cff, cfg = dmp_zz_heu_gcd(ff, gg, v, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1341, in dmp_zz_heu_gcd
+    h, cff, cfg = dmp_zz_heu_gcd(ff, gg, v, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1341, in dmp_zz_heu_gcd
+    h, cff, cfg = dmp_zz_heu_gcd(ff, gg, v, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1341, in dmp_zz_heu_gcd
+    h, cff, cfg = dmp_zz_heu_gcd(ff, gg, v, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1341, in dmp_zz_heu_gcd
+    h, cff, cfg = dmp_zz_heu_gcd(ff, gg, v, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1341, in dmp_zz_heu_gcd
+    h, cff, cfg = dmp_zz_heu_gcd(ff, gg, v, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1341, in dmp_zz_heu_gcd
+    h, cff, cfg = dmp_zz_heu_gcd(ff, gg, v, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1341, in dmp_zz_heu_gcd
+    h, cff, cfg = dmp_zz_heu_gcd(ff, gg, v, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1313, in dmp_zz_heu_gcd
+    return dup_zz_heu_gcd(f, g, K)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/euclidtools.py", line 1213, in dup_zz_heu_gcd
+    h = K.gcd(ff, gg)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/polys/domains/pythonintegerring.py", line 95, in gcd
+    return python_gcd(a, b)
+  File "/usr/local/lib/python2.7/dist-packages/sympy/core/numbers.py", line 50, in igcd
+    a, b = b, a % b
+KeyboardInterrupt
+
