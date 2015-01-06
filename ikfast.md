@@ -10,5 +10,9 @@ openrave-robot.py thor_mang_simple_rounded.dae --info links
 #thor right leg:
 python `openrave-config --python-dir`/openravepy/_openravepy_/ikfast.py --robot=thor_mang_simple_rounded.dae --iktype=transform6d --baselink=0 --eelink=12 --savefile=r_leg.cpp
 
+#thor right arm without final rotation:
+python `openrave-config --python-dir`/openravepy/_openravepy_/ikfast.py --robot=thor_mang_simple_rounded.dae --iktype=transform6d --baselink=14 --eelink=30 --savefile=r_arm_thor_utorso_to_r_arm_wrist_roll.cpp
+
+
 #compile:
 g++ -lstdc++ -llapack -o ik r_leg.cpp 
