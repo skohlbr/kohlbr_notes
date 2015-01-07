@@ -16,8 +16,12 @@ python `openrave-config --python-dir`/openravepy/_openravepy_/ikfast.py --robot=
 #thor right arm to right hand with free index
 python `openrave-config --python-dir`/openravepy/_openravepy_/ikfast.py --robot=thor_mang_simple_rounded.dae --iktype=transform6d --baselink=14 --eelink=32 --savefile=r_arm_thor_utorso_to_r_hand.cpp --freeindex=29
 
+#thor right leg
+python `openrave-config --python-dir`/openravepy/_openravepy_/ikfast.py --robot=thor_mang_simple_rounded.dae --iktype=transform6d --baselink=0 --eelink=12 --savefile=r_arm_thor_pelvis_to_r_foot.cpp
+
+
 #With database:
-openrave.py --database inversekinematics --robot=thor_arm_right.xml --usecached --perftiming=100000
+openrave.py --database inversekinematics --robotgit =thor_arm_right.xml --usecached --perftiming=100000
 
 #thor_arm_right.xml:
 <Robot name="thor_arm_right" file="thor_mang_simple_rounded.dae">
