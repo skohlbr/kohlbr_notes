@@ -45,3 +45,38 @@ rosdep update
 = Setup dev environment =
 
 git config --global credential.helper 'cache --timeout=3600'
+
+
+= Turn off writing to SD card =
+
+sudo nano /etc/fstab
+
+
+proc            /proc           proc    defaults          0       0
+/dev/mmcblk0p2  /               ext4    defaults,noatime  0       1
+/dev/mmcblk0p1  /boot/firmware  vfat    defaults          0       2
+tmpfs /var/tmp tmpfs nodev,noatime,nosuid,size=1M 0 0
+tmpfs /var/log tmpfs nodev,noatime,nosuid,size=1M 0 0
+tmpfs /tmp tmpfs nodev,noatime,nosuid,size=5M 0 0
+tmpfs /home/ubuntu/.ros tmpfs nodev,noatime,nosuid,size=1M 0 0
+
+# a swapfile is not a swap partition, no line here
+#   use  dphys-swapfile swap[on|off]  for that
+
+
+
+sudo apt-get remove dphys-swapfile
+
+Check usage:
+
+sudo apt-get install iotop
+sudo iotop -oa
+
+
+http://www.richardsramblings.com/2013/02/extend-the-life-of-your-rpi-sd-card/
+
+sudo apt-get install sysstat
+iostat -d 300 3
+
+
+
