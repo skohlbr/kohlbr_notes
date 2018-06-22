@@ -1,8 +1,28 @@
 = Install =
 
+== BmapTool ==
 sudo bmaptool copy --bmap 2015-04-06-ubuntu-trusty.bmap 2015-04-06-ubuntu-trusty.img /dev/mmcblk0
 
 sync
+
+== Etcher ==
+
+TODO
+
+
+== PI3 B+ ==
+
+Install updated firmware (https://wiki.ubuntu.com/ARM/RaspberryPi#Updating_the_Pi_GPU_firmware_and_bootloader_files)
+
+wget http://archive.raspberrypi.org/debian/pool/main/r/raspberrypi-firmware/raspberrypi-bootloader_1.20180417-1_armhf.deb
+dpkg-deb -x raspberrypi-bootloader_1.20180417-1_armhf.deb /tmp/pi-bootloader
+sudo mount /dev/XXX1 /mnt
+sudo cp /tmp/pi-bootloader/boot/* /mnt
+
+
+Disable cloud init:
+
+sudo touch /etc/cloud/cloud-init.disabled
 
 = On Pi =
 
@@ -78,5 +98,11 @@ http://www.richardsramblings.com/2013/02/extend-the-life-of-your-rpi-sd-card/
 sudo apt-get install sysstat
 iostat -d 300 3
 
+
+= Troubleshooting =
+
+"unable to resolve host ubuntu"
+/etc/hosts
+Add 127.0.1.1    ubuntu
 
 
